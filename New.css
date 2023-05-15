@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.images{
+position: relative;
+left:30px;
+    display: flex;
+    width:1000px;
+    height:600px;
+    align-items: center;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+.images .picha{
+    height:200px;
+    width:200px;
+}
+.images p{
+    top:0px;
+    justify-content: center;
+}
