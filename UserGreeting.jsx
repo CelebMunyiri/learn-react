@@ -11,12 +11,14 @@ import React, { Component } from 'react'
   }
   
     render() {
+        //conditional rendering using short circuiting starts below
+        return this.state.isLoggedIn && <div>Welcome Mahu</div>
         //condition rendering using ternary conditional operator starts here
-        return(
-            this.state.isLoggedIn ? 
-            <div>Welcome Munyiri abdul</div>:
-            <div>Welcome the guest</div>
-        )
+       // return(
+           // this.state.isLoggedIn ? 
+           // <div>Welcome Munyiri abdul</div>:
+           // <div>Welcome the guest</div>
+       // )
         //condtional rendering using element variables starts below
         //let message
         //if(this.state.isLoggedIn){
