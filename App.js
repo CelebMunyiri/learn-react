@@ -1,55 +1,20 @@
 
 import './App.css';
-//import Stylesheet from './components/Stylesheet';
-//import NamesList from './components/NamesList';
-//import List from './components/List';
-//import UserGreeting from './components/UserGreeting';
-//import Count from './Count';
-//import New from './components/New'
-//import Parent from './components/Parent';
-//import Eventbind from './components/Eventbind';
-//import Classclick from './components/Classclick';
-//import State from './components/State';
-//import StateandsetState from './components/StateandsetState';
-//import Greet from './components/Greet.js'
-//import Hello from './components/Hello.js'
-//import Welcome from './components/Welcome.js'
-//import Counter from './components/Counter';
-// import Functionclick from './components/Functionclick';
-//import './appStyles.css'
-//import styles from './appStyles.module.css'
-
-//inlince components are scoped by default
-//same style applies to all child components and parent component
-//this can result to styling conflicts making browser confused on which style to use
-//import Inline from './components/Inline';
+import Form from './moreComponents/Form';
 const App=()=> {
 
   return (
     <div className="App">
-  {/*    <h1 className='error'>Error</h1>*/}
-{/*<h1 className={styles.success}>Success</h1>*/}
-  {/*<Inline/> */}    
-      {/*<Stylesheet primary={true} />*/}
-{/*<NamesList/>*/}
-      {/*<List/>*/}
-      {/*<UserGreeting/>*/}
-     {/*<Parent/> */} 
-      {/*<Eventbind/>*/}
-     {/*<Classclick/>*/ } 
-      {/*<Functionclick/>*/}
-
-
-      {/*<StateandsetState/>*/}
-     {/*<State/> */} 
-     {/*<New/>*/}
-     {/*<Counter/> */}
-{/*<Welcome name='Dawud' heroName='Abdul'/>*/}
-     {/*<Count/>*/}
-     {/*<Greet name='Munyiri' heroName='Mahubali'/>*/}
-      
+ 
+      <Form/>
     </div>
   );
 }
 
 export default App;
+//LifeCycle methods are classified into
+//mounting=>when an instance of a component is being created and inserted into the DOM
+//updating=>when a component is being re-rendered as a result of changed to either its props or state
+//unmounting=>when a component is being removed from the DOM
+//errorhandling=>When there is an error during rendering, in a lifecycle method, or in the constructor of any child component
+//Each Lifecycle has its own methods 
