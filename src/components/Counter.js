@@ -25,6 +25,7 @@ class Counter extends Component {
     }
 
   render() {
+    //we used an arrow function to call the function for handling as a callback function
     return (
       <div className='count'>
         
